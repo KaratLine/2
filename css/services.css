@@ -1,0 +1,35 @@
+.sevices {
+    padding: 150px 0; ;
+    
+}
+
+.services_h4, .section_h2 {
+    color: black;
+}
+
+.services_h4{
+    margin: 0 auto;
+    max-width: 177px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.section_h2{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.services_grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+    justify-items: center;
+}
+.services_grid_item {
+    padding: 59px 0;
+    background-color: #f7f7f7;
+    min-width: 350px;
+}
+.services_icon {
+    margin: 0 auto 21px; 
+}

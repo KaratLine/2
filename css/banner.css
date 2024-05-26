@@ -1,0 +1,46 @@
+.banner {
+    background-color: var(--accent_color) ;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+.banner_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_flex_left {
+    color: var(--white_color);
+}
+.banner_h4 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+    margin-bottom: 7px;
+}
+.banner_h5 {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.banner_btn {
+    border: none;
+    background-color: var(--white_color);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    padding: 14px 30px;
+}
+.banner_icon {
+    margin-right: 15px;
+
+}

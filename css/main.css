@@ -1,0 +1,85 @@
+@import url(./header.css);
+@import url(./about.css);
+@import url(./media.css);
+@import url(./banner.css);
+@import url(./services.css);
+@import url(./portfolio.css);
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+:root{
+    --accent_color:#F7654A;
+    --dark_color:#404149;
+    --gray_color:#999999;
+    --white_color:#fff;
+    --backround_color:#e5e5e5;
+}
+
+.text_h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.text_h3{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.text_h4{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.text_p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.text_p-reviews{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+

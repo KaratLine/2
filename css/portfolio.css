@@ -1,0 +1,13 @@
+.portfolio {
+}
+.portfolio_grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    gap: 0;
+}
+.portfolio_grid_item {
+}
+.portfolio_img {
+}
+
