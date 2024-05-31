@@ -5,12 +5,18 @@
 }
 
 .partners_h2 {
-    
+    text-align: center;
+    color: var(--white_color);
+    padding-bottom: 60px;
 }
 
 .partners_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .partners_flex_item {
+    
 }
 .parners_logo {
 }
