@@ -1,0 +1,40 @@
+.reviews {
+    padding: 150px 0;
+}
+
+.reviews_h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.reviews_grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+}
+.reviews_grid_item {
+}
+
+.reviews_quotes {
+    font-size: 96px;
+    line-height: 1;
+    
+    color: var(--accent_color);
+    margin-bottom: -40px;
+}
+.p_reviews {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray_color)
+}
+
+.reviews_text_accent {
+    color: var(--accent_color);
+}
+
+.reviews_card {
+    background-color: #f7f7f7;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+}
