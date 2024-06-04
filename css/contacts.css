@@ -23,6 +23,12 @@
 .contacts_h3 {
     text-transform: uppercase;
 }
+
+.contacts_h3 a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .contacts_h3_grey {
     color: var(--gray_color);
     padding-bottom: 25px;
