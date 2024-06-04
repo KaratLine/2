@@ -1,0 +1,33 @@
+.contacts {
+    margin: 100px 0 150px;
+}
+.contacts_h2 {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.contacts_grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.contacts_grid_item {
+    max-width: 255px;
+    text-align: center;
+}
+.contacts_icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+}
+
+.contacts_h3 {
+    text-transform: uppercase;
+}
+.contacts_h3_grey {
+    color: var(--gray_color);
+    padding-bottom: 25px;
+}
+.contacts_h3_accent {
+    color: var(--accent_color);
+}
+

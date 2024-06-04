@@ -1,0 +1,13 @@
+.footer {
+    padding: 30px 0;
+    background-color: var(--dark_color);
+    color:var(--white_color) ;
+}
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+}
+.text_p {
+}
+.footer_cpyright {
+}

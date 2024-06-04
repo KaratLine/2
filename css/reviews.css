@@ -11,8 +11,7 @@
     gap: 30px;
     grid-template-columns: repeat(3,1fr);
 }
-.reviews_grid_item {
-}
+
 
 .reviews_quotes {
     font-size: 96px;
